@@ -1,0 +1,601 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 12240 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Admin/Castles zone
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51773
+Successfully changed project path to: C:/Users/Admin/Castles zone
+C:/Users/Admin/Castles zone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7540] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3264993965 [EditorId] 3264993965 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOUTIFD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7540] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3264993965 [EditorId] 3264993965 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SOUTIFD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 110.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Castles zone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011045 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (562ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006354 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Castles zone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Castles zone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.274 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1275ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3508.
+Memory consumption went from 107.4 MB to 107.3 MB.
+Total: 3.546300 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.270600 ms MarkObjects: 2.801800 ms  DeleteObjects: 0.136100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006519 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Castles zone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Castles zone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1678ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1356ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (505ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.2 KB). Loaded Objects now: 3511.
+Memory consumption went from 107.4 MB to 107.3 MB.
+Total: 4.747300 ms (FindLiveObjects: 0.406400 ms CreateObjectMapping: 0.274000 ms MarkObjects: 3.968800 ms  DeleteObjects: 0.096900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 907215.617982 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/Materials/fire.mat
+  artifactKey: Guid(ffadee3ee7a09854eb9cc65208453cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/Materials/fire.mat using Guid(ffadee3ee7a09854eb9cc65208453cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b950bc0573c6db331bf6f6445f39b406') in 0.193033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.264926 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/decorations/candle_2.prefab
+  artifactKey: Guid(c0d0f6b7b592dc14aa59382b630fe552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/decorations/candle_2.prefab using Guid(c0d0f6b7b592dc14aa59382b630fe552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae76d788d0b6650450404306e123f5c6') in 0.237115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.796100 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground-1-2.prefab
+  artifactKey: Guid(71c1869005d3aa844b533950f28e611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground-1-2.prefab using Guid(71c1869005d3aa844b533950f28e611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b94a74c1e6381aab410179181afade') in 0.027211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_9.prefab
+  artifactKey: Guid(3ebb497a37e800f44b597338c52813bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_9.prefab using Guid(3ebb497a37e800f44b597338c52813bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffc1a3c84465d1d37eeb6426abd8160') in 0.029034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_15.prefab
+  artifactKey: Guid(88871cb3fdd18c84998c33a8d9408d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_15.prefab using Guid(88871cb3fdd18c84998c33a8d9408d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccae4ed7735b07938854cd00dd232e9') in 0.024377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/stairs_2.prefab
+  artifactKey: Guid(a70d0f9c99a36034cb19fed7f2ad5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/stairs_2.prefab using Guid(a70d0f9c99a36034cb19fed7f2ad5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad7926a0ddfbd412d29ee139420edb2') in 0.028766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_16.prefab
+  artifactKey: Guid(298d627fc08ec2844865e8b0fb2b70f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_16.prefab using Guid(298d627fc08ec2844865e8b0fb2b70f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6844c5d4056c3b73f8b887a9302d2e35') in 0.025000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_6.prefab
+  artifactKey: Guid(80ab2159d2bdbc54e816283f52b4ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_6.prefab using Guid(80ab2159d2bdbc54e816283f52b4ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec8c58dbf613e202e91b1eb2443873c') in 0.026444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_5.prefab
+  artifactKey: Guid(0852dbaca3364ee45822445ddce3beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_5.prefab using Guid(0852dbaca3364ee45822445ddce3beec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3911fbec5c717d81137e525440aec136') in 0.024219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/stairs_1.prefab
+  artifactKey: Guid(29748466972c61f4e8a122c9c839603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/stairs_1.prefab using Guid(29748466972c61f4e8a122c9c839603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94b19522ddf14282df0950bde124591') in 0.024929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_2.prefab
+  artifactKey: Guid(078375d89d068ff43b690e53ac911589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_2.prefab using Guid(078375d89d068ff43b690e53ac911589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44504b9ad20ab27d1adf6822e8994cc3') in 0.026210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_3.prefab
+  artifactKey: Guid(57160797b6580ef4d82bf06829b51f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_3.prefab using Guid(57160797b6580ef4d82bf06829b51f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a312917959c6bda04b911d9e1f514731') in 0.026138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_11.prefab
+  artifactKey: Guid(ac4a1a6f99e8e4b4f95b075c1bad951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/ground_stairs/ground_11.prefab using Guid(ac4a1a6f99e8e4b4f95b075c1bad951e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187ef68a0106749e70b7322ca3c540b3') in 0.025394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.657376 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/particles/fire particle candle.prefab
+  artifactKey: Guid(9f4887cc82d823b4ba155e6467a35e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/particles/fire particle candle.prefab using Guid(9f4887cc82d823b4ba155e6467a35e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f36813f7a444aba17e5c8609ea4e402') in 0.023046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.442658 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/walls/pylon-corner.prefab
+  artifactKey: Guid(ec116df1728c8a543bd621c12aa237d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/walls/pylon-corner.prefab using Guid(ec116df1728c8a543bd621c12aa237d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752de6f2fed0e905eb9a55eb4013e24e') in 0.023662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/walls/wall_base1.prefab
+  artifactKey: Guid(efbd5efcba36b344abbcbc09b00fb495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/walls/wall_base1.prefab using Guid(efbd5efcba36b344abbcbc09b00fb495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d150e7f2ecb96c297b574c24b5c1faa') in 0.026794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/walls/wall_base3.prefab
+  artifactKey: Guid(4828eb97da272fb45b2babf9c57fe11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/walls/wall_base3.prefab using Guid(4828eb97da272fb45b2babf9c57fe11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa31729afefaf0c5721bd0006c6fa1f') in 0.028700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/walls/wall_base2.prefab
+  artifactKey: Guid(efe555334b6acd4429f41f455e9dce38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/prefabs/walls/wall_base2.prefab using Guid(efe555334b6acd4429f41f455e9dce38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7fa3acd7d73674b30ef7efb4cae5ce') in 0.028172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.982974 seconds.
+  path: Assets/Triple Dungeon Pack/Blue Dungeon/textures/fire.psd
+  artifactKey: Guid(59714d9622665274a8dc4c07b9b8d0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triple Dungeon Pack/Blue Dungeon/textures/fire.psd using Guid(59714d9622665274a8dc4c07b9b8d0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cdd6bc309ce31b7660abfe1ef91aba') in 0.021925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.243121 seconds.
+  path: Assets/Castel zone main folder/prefabs/specials/candle_2.prefab
+  artifactKey: Guid(40fd410ede896cb4d8810f03c77f3dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castel zone main folder/prefabs/specials/candle_2.prefab using Guid(40fd410ede896cb4d8810f03c77f3dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241ecef8f8f1aae1c5619ea1a015dc8d') in 0.025527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Castel zone main folder/prefabs/specials/fire_cup_1 (2).prefab
+  artifactKey: Guid(67caafe28606d6a44b17be7be9fc6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castel zone main folder/prefabs/specials/fire_cup_1 (2).prefab using Guid(67caafe28606d6a44b17be7be9fc6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639b783fbd7b20d6b80bdbf7fb9beaa2') in 0.030929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Castel zone main folder/prefabs/specials/table.prefab
+  artifactKey: Guid(1e6ac13f467c9bd4e81c7570f5427429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castel zone main folder/prefabs/specials/table.prefab using Guid(1e6ac13f467c9bd4e81c7570f5427429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3b8ff0af4529c79faa96da1e4314af') in 0.029497 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007059 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Castles zone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Castles zone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1694ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1343ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (488ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.1 KB). Loaded Objects now: 3558.
+Memory consumption went from 112.1 MB to 112.0 MB.
+Total: 4.586200 ms (FindLiveObjects: 0.429700 ms CreateObjectMapping: 0.323300 ms MarkObjects: 3.554100 ms  DeleteObjects: 0.277900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1246.631445 seconds.
+  path: Assets/ChestFree/chest_close.prefab
+  artifactKey: Guid(ffd3e66d4df2a554fb995d41f7ffe4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/chest_close.prefab using Guid(ffd3e66d4df2a554fb995d41f7ffe4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b48e607c3588f7491d475f5d1790fd3') in 0.351993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ChestFree/chest_open.FBX
+  artifactKey: Guid(5c509bc9e3ce92e418aac359ebdf4281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/chest_open.FBX using Guid(5c509bc9e3ce92e418aac359ebdf4281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c961997880374f4dfcd97906f1568d') in 0.052400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ChestFree/coins.FBX
+  artifactKey: Guid(dd8ebbdcc572196408a6805681c6a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/coins.FBX using Guid(dd8ebbdcc572196408a6805681c6a297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2df16483459de36faa06f1747b2832') in 0.023963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.715567 seconds.
+  path: Assets/ChestFree/Materials/gold.mat
+  artifactKey: Guid(ccc85add18994f0479bf8a3beded1d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/Materials/gold.mat using Guid(ccc85add18994f0479bf8a3beded1d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fab68d6b33989838783a5f9b1c5fba') in 0.034455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.562641 seconds.
+  path: Assets/ChestFree/Textures/coins.png
+  artifactKey: Guid(f58561e82824d4e46ab1cb3e5b0d912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChestFree/Textures/coins.png using Guid(f58561e82824d4e46ab1cb3e5b0d912e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f857f9334b612666bba71650949ada0b') in 0.023391 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008203 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Castles zone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\Castles zone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.878 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1879ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1526ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (443ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3043 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.4 KB). Loaded Objects now: 3565.
+Memory consumption went from 112.5 MB to 112.5 MB.
+Total: 5.200800 ms (FindLiveObjects: 0.429000 ms CreateObjectMapping: 0.335400 ms MarkObjects: 4.267000 ms  DeleteObjects: 0.167900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 422.794902 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/decorations/candle_2.prefab
+  artifactKey: Guid(c0d0f6b7b592dc14aa59382b630fe552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/decorations/candle_2.prefab using Guid(c0d0f6b7b592dc14aa59382b630fe552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc7447d9a8e3aeb21a4146e1a9ff9c7') in 0.044799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/decorations/vase_2.prefab
+  artifactKey: Guid(d5204fad194f4c14fbc275a63ff2c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/decorations/vase_2.prefab using Guid(d5204fad194f4c14fbc275a63ff2c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd461a213cad06ed8ea0ca70390a459c') in 0.006785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/decorations/table.prefab
+  artifactKey: Guid(4507003633afb764dbe083265373544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/decorations/table.prefab using Guid(4507003633afb764dbe083265373544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c6e493c52c9bc4cc4289d2a7cf41bb') in 0.005622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/decorations/vase_3.prefab
+  artifactKey: Guid(1f7bd7a0d72743b4181c28af4b82c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/decorations/vase_3.prefab using Guid(1f7bd7a0d72743b4181c28af4b82c3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5a1307c85e614b9e55fa4403718d4b') in 0.014782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.210317 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground-1-2.prefab
+  artifactKey: Guid(71c1869005d3aa844b533950f28e611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground-1-2.prefab using Guid(71c1869005d3aa844b533950f28e611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cae99466200ada3f36aabdd66ee1647') in 0.005985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_12.prefab
+  artifactKey: Guid(bd6f5d665b09d444c9509853346c1237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_12.prefab using Guid(bd6f5d665b09d444c9509853346c1237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9839095a9c261a0b93491dc7d60d61b') in 0.006536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_13.prefab
+  artifactKey: Guid(429fe0ad9518a524bb17efc46b496305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_13.prefab using Guid(429fe0ad9518a524bb17efc46b496305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a0ef8d9fd1f08e262284624b11ac55') in 0.006422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_7.prefab
+  artifactKey: Guid(74f3126c201736a469c0797cf65444b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_7.prefab using Guid(74f3126c201736a469c0797cf65444b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb62d6be4db2c3e62fca72a05f4771f2') in 0.005479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/stairs_2.prefab
+  artifactKey: Guid(a70d0f9c99a36034cb19fed7f2ad5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/stairs_2.prefab using Guid(a70d0f9c99a36034cb19fed7f2ad5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447a30e71aad754d8a0563b8c23ba0e4') in 0.004866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_16.prefab
+  artifactKey: Guid(298d627fc08ec2844865e8b0fb2b70f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_16.prefab using Guid(298d627fc08ec2844865e8b0fb2b70f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199798f55d9b3ce2bb235e0d17ae0249') in 0.015151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_6.prefab
+  artifactKey: Guid(80ab2159d2bdbc54e816283f52b4ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_6.prefab using Guid(80ab2159d2bdbc54e816283f52b4ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb159a4286db6885c906b76315758b2a') in 0.014753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_8.prefab
+  artifactKey: Guid(469b046fd92c69c4fb1f98c2eeff2b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_8.prefab using Guid(469b046fd92c69c4fb1f98c2eeff2b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99272c980e1dcadb5af9a8cb85e6b5f4') in 0.004868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_4.prefab
+  artifactKey: Guid(bb21e2bab61fc5f4fa6b57ec41ae68a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_4.prefab using Guid(bb21e2bab61fc5f4fa6b57ec41ae68a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36ee3d7f3672632c6003314cdafcfab') in 0.005120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground-1-3.prefab
+  artifactKey: Guid(15c4fcafa28bf2740b9e786073e133a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground-1-3.prefab using Guid(15c4fcafa28bf2740b9e786073e133a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db306b22dcce84804579951432edc52') in 0.013153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_10.prefab
+  artifactKey: Guid(535663757d8855d4583cc51b3150834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/ground_stairs/ground_10.prefab using Guid(535663757d8855d4583cc51b3150834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae0955e3e8903df5f9cc6dd328f37fd') in 0.005597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.446804 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/specials/candle_2.prefab
+  artifactKey: Guid(40fd410ede896cb4d8810f03c77f3dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/specials/candle_2.prefab using Guid(40fd410ede896cb4d8810f03c77f3dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342faa183419cc90d593d69decc694a9') in 0.055659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/specials/fire_cup_1 (2).prefab
+  artifactKey: Guid(67caafe28606d6a44b17be7be9fc6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/specials/fire_cup_1 (2).prefab using Guid(67caafe28606d6a44b17be7be9fc6216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ed07e9cf06bce6e8ec81ea9358d1b') in 0.031252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Castle zone main folder/prefabs dungon/specials/fire_cup_base.prefab
+  artifactKey: Guid(9be0fc43ef0dab943b5c07e2c9725047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle zone main folder/prefabs dungon/specials/fire_cup_base.prefab using Guid(9be0fc43ef0dab943b5c07e2c9725047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f910f5a3e17eaac5ee075c984d65963') in 0.024300 seconds 
